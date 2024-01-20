@@ -20,4 +20,7 @@ set FLAGS= ^
 vc %FLAGS% -c graphic.c
 vc %FLAGS% -o graphic   graphic.o -lamiga -lmieee
 
+vc %FLAGS% -c screen.c
+vc %FLAGS% -o screen    screen.o  -lamiga -lmieee
+
 ::cranker.exe -d cinema -f hello -o hello.hunk
